@@ -3,7 +3,7 @@ function playEpisode(episodeId) {
     var videoPlayer = document.getElementById('video-player');
     
     var videoFiles = {
-        'introducao': `./videos/introducao.mp4`,
+        'introducao': './videos/introducao.mp4',
         'episode1': './videos/episode1.mp4', 
         'episode2': './videos/episode2.mp4',
         'episode3': './videos/episode3.mp4'

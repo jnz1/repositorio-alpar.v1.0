@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast Bits & Bytes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <<header class="header">
+        <img class="logo" src="./img/Podcast_03 [Convertido]-01.png" alt="Logo do Podcast">
+    </header>
+    <main>
+        <div class="episode-list">
+            <button class="episode-button" onclick="playEpisode('introducao')">Bits & Bytes</button>
+            <button class="episode-button" onclick="playEpisode('episode1')">Episódio 1</button>
+            <button class="episode-button" onclick="playEpisode('episode2')">Episódio 2</button>
+            <button class="episode-button" onclick="playEpisode('episode3')">Episódio 3</button>
+        </div>
+        <div id="episode-player" class="episode-player">
+            <video id="video-player" width="560" height="315" controls>
+                <source src="./videos/introducao.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="extras">
+            <div class="comments-section">
+                <textarea id="comment-input" placeholder="Escreva seu comentário"></textarea>
+                <button onclick="saveComment()">Enviar</button>
+                <div id="comment-list"></div>
+            </div>
+            <button class="donate-button" onclick="showAlert()">Doar ao Canal</button>
+        </div>
+    </main>
+    <footer class="footer">
+        <h2>Sobre Nós</h2>
+        <p>Este podcast foi criado em 2024 por João Vitor Nunez para compartilhar conhecimentos sobre tecnologia. Ao longo dos anos, queremos crescer e criar uma comunidade dedicada à aprendizagem contínua.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

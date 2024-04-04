@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ffd700, #000000);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: transparent;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+
+.logo {
+    width: 300px; 
+    height: auto; 
+    margin:  auto; 
+    display: block; 
+}
+
+
+.episode-button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.episode-button:hover {
+    background-color: #0056b3;
+}
+
+.episode-player {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    z-index: 9999;
+ 
+}
+.extras {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.comments-section {
+    margin-top: 20px;
+}
+
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+    max-width: 100%;
+}
+
+.footer h2 {
+    margin-top: 0;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .extras {
+        width: 100%;
+        margin-top: 20px;
+    }
+}

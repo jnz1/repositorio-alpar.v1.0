@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .champion-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .champion {
+    flex-basis: calc(30% - 20px);
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  
+  .champion img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  .champion h2 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  @media (max-width: 991px) {
+    .champion {
+      flex-basis: calc(45% - 20px);
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .champion {
+      flex-basis: calc(100% - 20px);
+    }
+  }

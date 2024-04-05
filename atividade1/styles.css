@@ -37,21 +37,25 @@ body {
 }
 
 .about {
+  font-size: 20px;
 font-family: 'VT323', monospace;
 background-color:#02d08f ; 
 }
 
 .curiosity {
+  font-size: 20px;
 font-family: 'VT323', monospace;
 background-color: #02d08f;
 }
 
 .skills {
+  font-size: 20px;
 font-family: 'VT323', monospace;
 background-color: #02d08f;
 }
 
 .hobbies {
+  font-size: 20px;
 font-family: 'VT323', monospace;
 background-color: #02d08f;
 }

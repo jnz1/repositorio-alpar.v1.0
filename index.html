@@ -4,34 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Atividades do Rocket Program - HTML</title>
-  <style>
-    button {
-      background-color: #4CAF50;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 10px;
-    }
-  </style>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">  
+
+
 </head>
 <body>
-  <h1>Olá! Seja bem vindo</h1>
-  <ol>    
-      <button onclick="location.href='./atividade1/index.html';">Atividade 1</button>
-  </ol>
-  <ol>
+  <div class="header">
+    <h1>Olá! Seja bem-vindo! Esta é a página inicial do meu repositório no Rocket Program!</h1>
+  </div>
+  <nav>
+    <a href="https://github.com/jnz1">Voltar ao meu GitHub</a>
+    <a href="./atividade1/index.html">Sobre mim</a>
+  </nav>
+  <div class="content">
+    <h2>Escolha uma atividade:</h2>
+    <button onclick="location.href='./atividade1/index.html';">Atividade 1</button>
     <button onclick="location.href='./atividade2/';">Atividade 2</button>
-  </ol>
-  <ol>
     <button onclick="location.href='./atividade3/index.html';">Atividade 3</button>
-  </ol>
-  <ol>
     <button onclick="location.href='./atividade4/index.html';">Atividade 4</button>
-  </ol>
+  </div>
+  <div class="footer">
+  Siga-me nas redes sociais:
+  <a href="https://www.facebook.com/joaovitor.nunez/"><img src="./img/face.png" alt="Facebook" class="social-logo"></a>
+  <a href="https://twitter.com/NunezComZ"><img src="./img/tt.png" alt="Twitter" class="social-logo"></a>
+  <a href="https://www.instagram.com/nunezcomz/"><img src="./img/insta.png" alt="Instagram" class="social-logo"></a>
+</div>
 </body>
 </html>

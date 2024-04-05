@@ -36,12 +36,12 @@ body{
   
 nav {
     width: 200px;
-    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo com transparência */
-    position: absolute; /* Posição absoluta para sobrepor a imagem de fundo */
-    top: 50%; /* Centraliza verticalmente */
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
     left: 20px;
     padding-top: 20px;
-    transform: translateY(-50%); /* Centraliza verticalmente */
+    transform: translateY(-50%);
 }
 nav a {
     display: block;

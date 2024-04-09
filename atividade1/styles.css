@@ -71,3 +71,35 @@ position: fixed;
   text-decoration: none;
   border-radius: 5px;
 }
+
+@media (max-width: 800px) {
+  .section-wrapper {
+    flex-direction: column;
+  }
+
+  .section-column {
+    width: 100%;
+  }
+
+  .section-wrapper{
+    justify-content: space-around;
+  }
+
+  .back-button {
+    bottom: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 1.5em;
+  }
+
+  .section h2 {
+    font-size: 1.2em;
+  }
+
+  .back-button {
+    bottom: 30px;
+  }
+}

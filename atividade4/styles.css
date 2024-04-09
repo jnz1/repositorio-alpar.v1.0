@@ -16,12 +16,13 @@ body {
 }
 
 
-
 main {
     padding: 20px;
     display: flex;
     justify-content: space-between;
     flex-grow: 1;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 
@@ -105,9 +106,26 @@ button:hover {
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 768px) {
-    .extras {
-        width: 100%;
-        margin-top: 20px;
-    }
+img {
+    max-width: 100%;
+    height: auto;
 }
+
+@media screen and (max-width: 768px) {
+    .logo {
+         width: 30vw;
+     }
+ 
+     main {
+         flex-direction: column;
+     }
+ 
+    .extras {
+         width: 100%;
+         margin-top: 20px;
+     }
+ 
+    .episode-player {
+         width: 100%;
+     }
+ }

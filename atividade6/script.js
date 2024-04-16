@@ -51,7 +51,7 @@ function deposit() {
         updateBalance();
         amountInput.value = "";
     } else {
-        alert("Invalid amount. Please enter a valid number.");
+        alert("Quantia inválida. Por favor digite um numero válido");
     }
 }
 
@@ -64,10 +64,10 @@ function withdraw() {
             updateBalance();
             amountInput.value = "";
         } else {
-            alert("Insufficient funds.");
+            alert("Saldo insuficiente.");
         }
     } else {
-        alert("Invalid amount. Please enter a valid number.");
+        alert("Quantia inválida. Por favor digite um numero válido");
     }
 }
 

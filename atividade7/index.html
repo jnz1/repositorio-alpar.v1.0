@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Iluminação</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="16x16"  href="./favicon/fav.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+<body>
+    <header>
+        <h1>CONTROLE DE ILUMINAÇÃO</h1>
+    </header>
+    <div class="container">
+        <div class="room" id="sala">
+            <h2>Sala</h2>
+            <label class="switch">
+                <input type="checkbox" id="sala-toggle" onclick="toggleLight('sala')">
+                <span class="slider round"></span>
+            </label>
+            <div class="status" id="sala-status"></div>
+        </div>
+        <div class="room" id="cozinha">
+            <h2>Cozinha</h2>
+            <label class="switch">
+                <input type="checkbox" id="cozinha-toggle" onclick="toggleLight('cozinha')">
+                <span class="slider round"></span>
+            </label>
+            <div class="status" id="cozinha-status"></div>
+        </div>
+        <div class="room" id="banheiro">
+            <h2>Banheiro</h2>
+            <label class="switch">
+                <input type="checkbox" id="banheiro-toggle" onclick="toggleLight('banheiro')">
+                <span class="slider round"></span>
+            </label>
+            <div class="status" id="banheiro-status"></div>
+        </div>
+        <div class="room" id="suite">
+            <h2>Suíte</h2>
+            <label class="switch">
+                <input type="checkbox" id="suite-toggle" onclick="toggleLight('suite')">
+                <span class="slider round"></span>
+            </label>
+            <div class="status" id="suite-status"></div>
+        </div>
+        <div class="room" id="porao">
+            <h2>Porão</h2>
+            <label class="switch">
+                <input type="checkbox" id="porao-toggle" onclick="toggleLight('porao')">
+                <span class="slider round"></span>
+            </label>
+            <div class="status" id="porao-status"></div>
+        </div>
+        <div class="room" id="garagem">
+            <h2>Garagem</h2>
+            <label class="switch">
+                <input type="checkbox" id="garagem-toggle" onclick="toggleLight('garagem')">
+                <span class="slider round"></span>
+            </label>
+            <div class="status" id="garagem-status"></div>
+        </div>
+    </div>
+    <script src="iluminacao.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
